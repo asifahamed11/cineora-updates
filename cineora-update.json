@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
   "product": "cineora-standalone-windows",
-  "version": "1.2.5",
-  "url": "https://github.com/asifahamed11/cineora-updates/releases/download/v1.2.5/Cineora-Standalone-Setup.exe",
-  "size": 101745441,
-  "sha256": "aa13266b31401f4f7ca71aab8ff37e4826d14e641157fe05819a1fa0cd2aec35",
-  "releaseDate": "2026-09-28T07:10:24.339Z",
+  "version": "1.2.6",
+  "url": "https://github.com/asifahamed11/cineora-updates/releases/download/v1.2.6/Cineora-Standalone-Setup.exe",
+  "size": 101744541,
+  "sha256": "e14483a37a4b8714d48f70c5474ff30b4f589cad8cd950e4981d5c5fb4cac350",
+  "releaseDate": "2026-09-28T07:53:43.551Z",
   "channel": "stable",
-  "signature": "8P35Ao3cSo3ujR-hDvMKgavftVdi4Nn66CFEEEJihqSpzdb7qfJfWcOifHE3Q1ifzr6IKByduqsDmmgjWD1FBA"
+  "signature": "ZPAi9w2UpBbXSnbeVNCHZdiP4SOgqgCXTmsJUK_4IIa_VzGIB-iBtKSzywqy4yOEZUb0RrK8wEbRPnCxWK-fAA"
 }
