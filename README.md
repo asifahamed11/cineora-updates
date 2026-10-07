@@ -11,3 +11,5 @@ This release fixes overlapping episode/seek controls, pressed timeline-thumb ali
 Existing updater-enabled PCs fetch `cineora-update.json`, verify the Ed25519 signature and installer SHA-256, then install the update automatically. Existing authorized tunnel configuration is retained.
 
 Public release assets do not contain Cloudflare credentials. New trusted replicas use the private installer supplied separately by the operator. No ZIP is required for end-user installation.
+
+For a phone that should keep the public site online while the PC is off, see [Android primary hosting](ANDROID_HOSTING.md). Both the phone application and its authorized connector are required.
