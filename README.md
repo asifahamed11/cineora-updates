@@ -12,4 +12,4 @@ Existing updater-enabled PCs fetch `cineora-update.json`, verify the Ed25519 sig
 
 Public release assets do not contain Cloudflare credentials. New trusted replicas use the private installer supplied separately by the operator. No ZIP is required for end-user installation.
 
-For a phone that should keep the public site online while the PC is off, see [Android primary hosting](ANDROID_HOSTING.md). Both the phone application and its authorized connector are required.
+For phone hosting, [Cineora Server 1.0.4](ANDROID_HOSTING.md) provides a compact live dashboard and automatic private setup without Termux or root. The APK is supplied privately. Public PC-off hosting also requires moving the matching connector to the phone.

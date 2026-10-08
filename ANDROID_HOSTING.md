@@ -1,5 +1,33 @@
 # Android primary hosting
 
+## Standalone app
+
+Cineora Server 1.0.4 is now available in the owner's private source repository.
+Install its private Setup APK and open it once. The bundled server starts
+automatically, configuration requires no copy/paste, and Termux/root are not
+needed. The APK supports ARM64, ARMv7, x86 and x86-64 on Android 8.0+.
+Actual full app testing is on Samsung M20 / Android 13 / ARM64; ARMv7 native
+tools have also run on that phone. Other devices and 16 KB environments need
+their own testing. This is not a guarantee of support for every Android phone.
+
+The compact dashboard shows server and public connector status, library size,
+stream count, speed, data sent, conversion jobs, uptime, server/free RAM,
+storage, network, battery/power and library/IMDb update times. Settings and logs
+are collapsed. Android may require initial notification and background-use
+consent. Boot start defaults on; an intentional Stop stays stopped.
+
+The private Setup APK includes authorized site configuration. It stays private
+and is not published in this public Windows update channel. The Windows
+installer and signed manifest remain v1.2.17.
+
+Local hosting is automatic. The public connector stays paused while the PC
+serves the site: stop the matching old PC connector before enabling the phone.
+App installation alone does not prove public hosting with the PC powered off.
+Keep Wi-Fi/media-network access and power available independently of the PC.
+Charging remains under Android control; the unsupported 20% loop is removed.
+
+## Previous Termux deployment
+
 A Windows installer does not automatically turn a phone into a public server.
 The phone needs both the Cineora application and an authorized Cloudflare
 connector routing the public hostname to its own localhost:3000.
