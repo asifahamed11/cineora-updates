@@ -36,3 +36,8 @@ Verify `localhost:3000/api/ready`, connector readiness on
 matching connectors stopped. Test actual playback; a connected tunnel alone
 does not prove independence from the PC. Physical power-off and Android reboot
 checks must be reported separately from service-stop tests.
+
+The current private source also corrects HEVC capability detection and paused
+seek recovery, reducing unnecessary conversions on the Android host. Deploy
+its matching HTML and JavaScript client files together. The published Windows
+installer remains v1.2.17 and predates these source corrections.
