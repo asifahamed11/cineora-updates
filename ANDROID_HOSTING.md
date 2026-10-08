@@ -2,7 +2,7 @@
 
 ## Standalone app
 
-Cineora Server 1.0.6 is now available in the owner's private source repository.
+Cineora Server 1.0.7 is now available in the owner's private source repository.
 Install its private Setup APK and open it once. The bundled server starts
 automatically, configuration requires no copy/paste, and Termux/root are not
 needed. The APK supports ARM64, ARMv7, x86 and x86-64 on Android 8.0+.
@@ -30,6 +30,17 @@ serves the site: stop the matching old PC connector before enabling the phone.
 App installation alone does not prove public hosting with the PC powered off.
 Keep Wi-Fi/media-network access and power available independently of the PC.
 Charging remains under Android control; the unsupported 20% loop is removed.
+
+Version 1.0.7 fixes Android tunnel DNS: native Android resolves Cloudflare's
+two documented edge hostnames, instead of the connector querying an unavailable
+Linux DNS resolver at `[::1]:53`. Addresses refresh on connector restart, and
+a connection that remains unready for 90 seconds is restarted automatically.
+The local server keeps running when public DNS is unavailable. TLS verification
+and token-file authentication remain enabled.
+
+The ordinary Windows EXE on a friend's PC supplies local hosting; it contains
+no owner tunnel credential and does not automatically host this domain. Keep
+one public application origin for standalone Watch Rooms.
 
 ## Previous Termux deployment
 
@@ -73,4 +84,4 @@ checks must be reported separately from service-stop tests.
 The current private source also corrects HEVC capability detection and paused
 seek recovery, reducing unnecessary conversions on the Android host. Deploy
 its matching HTML and JavaScript client files together. The published Windows
-installer remains v1.2.17 and predates these source corrections.
+installer is v1.2.19 and includes the shared player corrections.
