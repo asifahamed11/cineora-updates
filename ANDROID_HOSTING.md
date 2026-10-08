@@ -2,7 +2,7 @@
 
 ## Standalone app
 
-Cineora Server 1.0.4 is now available in the owner's private source repository.
+Cineora Server 1.0.6 is now available in the owner's private source repository.
 Install its private Setup APK and open it once. The bundled server starts
 automatically, configuration requires no copy/paste, and Termux/root are not
 needed. The APK supports ARM64, ARMv7, x86 and x86-64 on Android 8.0+.
@@ -11,14 +11,19 @@ tools have also run on that phone. Other devices and 16 KB environments need
 their own testing. This is not a guarantee of support for every Android phone.
 
 The compact dashboard shows server and public connector status, library size,
-stream count, speed, data sent, conversion jobs, uptime, server/free RAM,
+stream count, speed, data sent, conversion jobs, uptime, server/free RAM, heap used/budget,
 storage, network, battery/power and library/IMDb update times. Settings and logs
 are collapsed. Android may require initial notification and background-use
 consent. Boot start defaults on; an intentional Stop stays stopped.
 
 The private Setup APK includes authorized site configuration. It stays private
 and is not published in this public Windows update channel. The Windows
-installer and signed manifest remain v1.2.17.
+installer and signed manifest are v1.2.19. The M20 receives a 1024 MB Node
+old-space budget, up from its previous automatic limit of about 784 MB.
+Other phones receive a budget based on physical RAM, with lower 32-bit and
+low-memory limits. This is a heap ceiling, not a reservation of physical RAM.
+New catalog content starts an IMDb metadata refresh automatically. Scores and
+vote counts depend on availability in IMDb's official daily datasets.
 
 Local hosting is automatic. The public connector stays paused while the PC
 serves the site: stop the matching old PC connector before enabling the phone.
