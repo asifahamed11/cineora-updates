@@ -2,7 +2,7 @@
 
 ## Standalone app
 
-Cineora Server 1.0.7 is now available in the owner's private source repository.
+Cineora Server 1.0.8 is now available in the owner's private source repository.
 Install its private Setup APK and open it once. The bundled server starts
 automatically, configuration requires no copy/paste, and Termux/root are not
 needed. The APK supports ARM64, ARMv7, x86 and x86-64 on Android 8.0+.
@@ -31,7 +31,7 @@ App installation alone does not prove public hosting with the PC powered off.
 Keep Wi-Fi/media-network access and power available independently of the PC.
 Charging remains under Android control; the unsupported 20% loop is removed.
 
-Version 1.0.7 fixes Android tunnel DNS: native Android resolves Cloudflare's
+Version 1.0.8 fixes Android tunnel DNS: native Android resolves Cloudflare's
 two documented edge hostnames, instead of the connector querying an unavailable
 Linux DNS resolver at `[::1]:53`. Addresses refresh on connector restart, and
 a connection that remains unready for 90 seconds is restarted automatically.
