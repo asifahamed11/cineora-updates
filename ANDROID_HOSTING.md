@@ -1,6 +1,6 @@
 # Cineora Android hosting
 
-Cineora Server **1.0.18** bundles website/server **1.2.29**. The signed private Setup APK is supplied through the operator's private source repository. Update the existing package in place to retain settings and app data. Termux, rooting and manual credential entry are not required for this variant.
+Cineora Server **1.0.19** bundles website/server **1.2.30**. The signed private Setup APK is supplied through the operator's private source repository. Update the existing package in place to retain settings and app data. Termux, rooting and manual credential entry are not required for this variant.
 
 The APK includes ARM64, ARMv7, x86 and x86-64 runtimes for Android 8 or later. The installed release is verified on Samsung M20 / Android 13 / ARM64; this does not establish compatibility with every Android device.
 
@@ -10,4 +10,4 @@ Existing public connector settings are preserved during updates. Keep the operat
 
 Check the local application at `http://localhost:3000/api/ready` and the public site separately. A connected tunnel does not prove that upstream media is available. Test playback and large seeks; physical power-off and reboot checks are separate from service/readiness checks.
 
-This release includes refresh-safe player state, stable background catalog updates, game/software artwork refresh, compact captions, vote-weighted stars, IMDb Top 250 matching and immediate notification-panel entries.
+This release restores notification artwork, preserves known notification history across reloads and host changes, refreshes Updates when opened, and repairs popup timers, action/read-state races, browser Back and landscape tab clipping. Episode checks reserve a separate scan budget. Original-source availability still controls when new uploads can be discovered.
