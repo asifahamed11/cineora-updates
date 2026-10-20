@@ -1,6 +1,8 @@
 # Cineora signed update channel
 
-[Download Cineora 1.2.34 for Windows](https://github.com/asifahamed11/cineora-updates/releases/download/v1.2.34/Cineora-Standalone-Setup.exe).
+[Download Cineora 1.2.37 for Windows](https://github.com/asifahamed11/cineora-updates/releases/download/v1.2.37/Cineora-Standalone-Setup.exe).
+
+The library seed contains 43,999 entries. Source discovery follows all year/language/alphabet groups, awards, wrestling branches and software collections. Bounded scans resume their queue; historical backfill stays quiet in notifications. Metadata and artwork load on demand. Video courses have a lesson browser.
 
 Fullscreen keeps the current phone orientation and follows the device's rotation setting. It avoids forced landscape rotation during entry. Watch Together refreshes after display changes and can correct small drift when sufficient downloaded buffer remains. Thin or unavailable buffers do not trigger a display-only seek or stream restart.
 
@@ -14,4 +16,8 @@ Existing updater-enabled PCs verify the Ed25519 signature in `cineora-update.jso
 
 The public Windows installer contains no deployment credentials. Fresh trusted replicas use the private installer supplied separately by the website operator. Do not distribute private Setup builds publicly.
 
-[Cineora Server 1.0.23 for Android](ANDROID_HOSTING.md) bundles website/server 1.2.34. Its signed private APK is available to the operator in the private source repository. Termux and root are not required.
+[Cineora Server 1.0.26 for Android](ANDROID_HOSTING.md) bundles website/server 1.2.37. Its signed private APK is available to the operator in the private source repository. Termux and root are not required.
+
+The library has six main sections and 23 collections. Satyajit Ray has its own collection; alphabet partitions combine under TV & Web Series. Legacy and normalized source IDs resolve across PC and Android so saved links and shared rooms remain compatible.
+
+Filters follow the selected collection and its available metadata. Styled lists support keyboard and touch, with appropriate collection/field icons. Main titles omit technical tags while details retain metadata. Posters for off-screen cards and a closed notification panel load when needed, reducing initial image traffic. Stale software parent records cannot hide imported child cards after restart.
