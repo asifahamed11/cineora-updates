@@ -1,6 +1,6 @@
 # Cineora Android hosting
 
-Cineora Server **1.0.19** bundles website/server **1.2.30**. The signed private Setup APK is supplied through the operator's private source repository. Update the existing package in place to retain settings and app data. Termux, rooting and manual credential entry are not required for this variant.
+Cineora Server **1.0.20** bundles website/server **1.2.31**. The signed private Setup APK is supplied through the operator's private source repository. Update the existing package in place to retain settings and app data. Termux, rooting and manual credential entry are not required for this variant.
 
 The APK includes ARM64, ARMv7, x86 and x86-64 runtimes for Android 8 or later. The installed release is verified on Samsung M20 / Android 13 / ARM64; this does not establish compatibility with every Android device.
 
