@@ -1,8 +1,10 @@
 # Cineora signed update channel
 
-[Download Cineora 1.2.31 for Windows](https://github.com/asifahamed11/cineora-updates/releases/download/v1.2.31/Cineora-Standalone-Setup.exe).
+[Download Cineora 1.2.32 for Windows](https://github.com/asifahamed11/cineora-updates/releases/download/v1.2.32/Cineora-Standalone-Setup.exe).
 
-Cineora now uses the selected Clear sound set for notifications, bookmarks and selections. Mute and volume persist; normal interface sounds stay silent during video playback. The sound studio is included at `/sound-preview.html`.
+Room invitations now join directly from a shared link. Share room link uses native sharing where available; Copy link and manual copying remain available. Browser-blocked autoplay has a Tap to watch action. Mobile fullscreen video supports 1x–4x pinch zoom and panning while controls keep their size.
+
+Cineora uses the selected Clear sound set for notifications, bookmarks and selections. Audio can unlock again on the next touch after Android suspends it. Mute and volume persist; normal interface sounds stay silent during video playback. The sound studio is included at `/sound-preview.html`.
 
 Watch Together supports one durable room authority across PC and Android, so switching public tunnel origins does not lose a room. All connected replicas must share the private authority configuration. Trusted Setup packages provision it; generic updates preserve it.
 
@@ -10,4 +12,4 @@ Existing updater-enabled PCs verify the Ed25519 signature in `cineora-update.jso
 
 The public Windows installer contains no deployment credentials. Fresh trusted replicas use the private installer supplied separately by the website operator. Do not distribute private Setup builds publicly.
 
-[Cineora Server 1.0.20 for Android](ANDROID_HOSTING.md) bundles website/server 1.2.31. Its signed private APK is available to the operator in the private source repository. Termux and root are not required.
+[Cineora Server 1.0.21 for Android](ANDROID_HOSTING.md) bundles website/server 1.2.32. Its signed private APK is available to the operator in the private source repository. Termux and root are not required.
