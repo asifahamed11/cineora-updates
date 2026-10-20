@@ -1,6 +1,6 @@
 # Cineora Android hosting
 
-Cineora Server **1.0.22** bundles website/server **1.2.33**. The signed private Setup APK is supplied through the operator's private source repository. Update the existing package in place to retain settings and app data. Termux, rooting and manual credential entry are not required for this variant.
+Cineora Server **1.0.23** bundles website/server **1.2.34**. The signed private Setup APK is supplied through the operator's private source repository. Update the existing package in place to retain settings and app data. Termux, rooting and manual credential entry are not required for this variant.
 
 The APK includes ARM64, ARMv7, x86 and x86-64 runtimes for Android 8 or later. The installed release is verified on Samsung M20 / Android 13 / ARM64; this does not establish compatibility with every Android device.
 
@@ -10,4 +10,4 @@ Existing public connector settings are preserved during updates. Keep the operat
 
 Check the local application at `http://localhost:3000/api/ready` and the public site separately. A connected tunnel does not prove that upstream media is available. Test playback and large seeks; physical power-off and reboot checks are separate from service/readiness checks.
 
-This release keeps fullscreen in the current device orientation instead of forcing an Android rotation during entry. Normal device auto-rotation remains available. Watch Together refreshes after display changes and corrects small buffered drift without restarting media. Existing room links, pinch zoom, Clear sounds and notification repairs remain included. Original-source availability still controls when new uploads can be discovered.
+This release keeps fullscreen in the current device orientation instead of forcing an Android rotation during entry. Normal device auto-rotation remains available. Watch Together refreshes after display changes and corrects small drift only when sufficient downloaded buffer remains. Thin or unavailable buffers do not trigger a display-only seek or stream restart. Existing room links, pinch zoom, Clear sounds and notification repairs remain included. Original-source availability still controls when new uploads can be discovered.
