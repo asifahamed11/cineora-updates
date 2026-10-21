@@ -1,6 +1,6 @@
 # Cineora signed update channel
 
-[Download Cineora 1.2.40 for Windows](https://github.com/asifahamed11/cineora-updates/releases/download/v1.2.40/Cineora-Standalone-Setup.exe).
+[Download Cineora 1.2.41 for Windows](https://github.com/asifahamed11/cineora-updates/releases/download/v1.2.41/Cineora-Standalone-Setup.exe).
 
 The library seed contains 43,999 entries. Source discovery follows all year/language/alphabet groups, awards, wrestling branches and software collections. Bounded scans resume their queue; historical backfill stays quiet in notifications. Metadata and artwork load on demand. Video courses have a lesson browser.
 
@@ -16,7 +16,7 @@ Existing updater-enabled PCs verify the Ed25519 signature in `cineora-update.jso
 
 The public Windows installer contains no deployment credentials. Fresh trusted replicas use the private installer supplied separately by the website operator. Do not distribute private Setup builds publicly.
 
-[Cineora Server 1.0.29 for Android](ANDROID_HOSTING.md) bundles website/server 1.2.40. Its signed private APK is available to the operator in the private source repository. Termux and root are not required.
+[Cineora Server 1.0.30 for Android](ANDROID_HOSTING.md) bundles website/server 1.2.41. Its signed private APK is available to the operator in the private source repository. Termux and root are not required.
 
 The library has six main sections and 23 collections. Satyajit Ray has its own collection; alphabet partitions combine under TV & Web Series. Legacy and normalized source IDs resolve across PC and Android so saved links and shared rooms remain compatible.
 
@@ -27,3 +27,5 @@ Mobile and desktop menus share section labels. Mobile shortcuts begin Home, Movi
 Search suggestions now show real poster thumbnails with a logo fallback. This release adds bounded smaller JPEG variants, catalogue revalidation caches, compressed content-hashed application styles, and loads the existing 3D hero engine only on Home. Search text is usable before artwork finishes. Original media-server and Internet latency can still affect playback.
 
 Version 1.2.40 reduces startup overhead with one preloaded application script bundle, a smaller lossless UI logo, common icon font subsets with full-font fallback, and earlier catalogue requests. Restored collection views avoid Home-only work; Home avoids an invisible all-content request and duplicate rail rendering. Layout, colours and existing room/player behavior are retained.
+
+Version 1.2.41 bounds artwork discovery and downloads, separates network and encoder capacity, and prevents a slow source from occupying every worker. Existing cached images remain visible during refresh; smaller card variants can reuse a cached image without contacting the source. Visible cards take priority, distant images stay deferred, and transient failures have limited recovery attempts. Unavailable original artwork can still require a logo fallback; a faster failure is not a successful photo delivery.
