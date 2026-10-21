@@ -1,6 +1,6 @@
 # Cineora Android hosting
 
-Cineora Server **1.0.26** bundles website/server **1.2.37**. The signed private Setup APK is supplied through the operator's private source repository. Update the existing package in place to retain settings and app data. Termux, rooting and manual credential entry are not required for this variant.
+Cineora Server **1.0.27** bundles website/server **1.2.38**. The signed private Setup APK is supplied through the operator's private source repository. Update the existing package in place to retain settings and app data. Termux, rooting and manual credential entry are not required for this variant.
 
 The APK includes ARM64, ARMv7, x86 and x86-64 runtimes for Android 8 or later. The installed release is verified on Samsung M20 / Android 13 / ARM64; this does not establish compatibility with every Android device.
 
@@ -17,3 +17,5 @@ This release includes a 43,999-entry catalogue seed. Existing installations merg
 The library has six main sections and 23 collections. Satyajit Ray has its own collection; alphabet partitions combine under TV & Web Series. Legacy and normalized source IDs resolve across PC and Android so saved links and shared rooms remain compatible.
 
 Filters follow the selected collection and its available metadata. Styled lists support keyboard and touch, with appropriate collection/field icons. Main titles omit technical tags while details retain metadata. Posters for off-screen cards and a closed notification panel load when needed, reducing initial image traffic. Stale software parent records cannot hide imported child cards after restart.
+
+Mobile and desktop menus share section labels. Mobile shortcuts begin Home, Movies, Web Series and Anime. Instant search shows title suggestions before a full search. Notifications have the same six section filters, and More filters groups common choices with optional rating/download controls. Hidden hero/filter work is deferred. This release includes follow-redirects 1.16.1.
