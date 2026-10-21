@@ -1,6 +1,6 @@
 # Cineora Android hosting
 
-Cineora Server **1.0.28** bundles website/server **1.2.39**. The signed private Setup APK is supplied through the operator's private source repository. Update the existing package in place to retain settings and app data. Termux, rooting and manual credential entry are not required for this variant.
+Cineora Server **1.0.29** bundles website/server **1.2.40**. The signed private Setup APK is supplied through the operator's private source repository. Update the existing package in place to retain settings and app data. Termux, rooting and manual credential entry are not required for this variant.
 
 The APK includes ARM64, ARMv7, x86 and x86-64 runtimes for Android 8 or later. The installed release is verified on Samsung M20 / Android 13 / ARM64; this does not establish compatibility with every Android device.
 
@@ -21,3 +21,5 @@ Filters follow the selected collection and its available metadata. Styled lists 
 Mobile and desktop menus share section labels. Mobile shortcuts begin Home, Movies, Web Series and Anime. Instant search shows title suggestions before a full search. Notifications have the same six section filters, and More filters groups common choices with optional rating/download controls. Hidden hero/filter work is deferred. This release includes follow-redirects 1.16.1.
 
 Search suggestions now show real poster thumbnails with a logo fallback. This release adds bounded smaller JPEG variants, catalogue revalidation caches, compressed content-hashed application styles, and loads the existing 3D hero engine only on Home. Search text is usable before artwork finishes. Original media-server and Internet latency can still affect playback.
+
+Version 1.2.40 reduces startup overhead with one preloaded application script bundle, a smaller lossless UI logo, common icon font subsets with full-font fallback, and earlier catalogue requests. Restored collection views avoid Home-only work; Home avoids an invisible all-content request and duplicate rail rendering. Layout, colours and existing room/player behavior are retained.
