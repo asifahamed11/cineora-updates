@@ -1,6 +1,6 @@
 # Cineora Android hosting
 
-Cineora Server **1.0.30** bundles website/server **1.2.41**. The signed private Setup APK is supplied through the operator's private source repository. Update the existing package in place to retain settings and app data. Termux, rooting and manual credential entry are not required for this variant.
+Cineora Server **1.0.31** bundles website/server **1.2.42**. The signed private Setup APK is supplied through the operator's private source repository. Update the existing package in place to retain settings and app data. Termux, rooting and manual credential entry are not required for this variant.
 
 The APK includes ARM64, ARMv7, x86 and x86-64 runtimes for Android 8 or later. The installed release is verified on Samsung M20 / Android 13 / ARM64; this does not establish compatibility with every Android device.
 
@@ -18,7 +18,7 @@ The library has six main sections and 23 collections. Satyajit Ray has its own c
 
 Filters follow the selected collection and its available metadata. Styled lists support keyboard and touch, with appropriate collection/field icons. Main titles omit technical tags while details retain metadata. Posters for off-screen cards and a closed notification panel load when needed, reducing initial image traffic. Stale software parent records cannot hide imported child cards after restart.
 
-Mobile and desktop menus share section labels. Mobile shortcuts begin Home, Movies, Web Series and Anime. Instant search shows title suggestions before a full search. Notifications have the same six section filters, and More filters groups common choices with optional rating/download controls. Hidden hero/filter work is deferred. This release includes follow-redirects 1.16.1.
+Mobile and desktop menus share section labels. Mobile shortcuts begin Home, Movies, Web Series and Anime. Instant search shows title suggestions before a full search. Notifications have the same six section filters. More filters shows all applicable choices in a compact grid with short labels; its icon and sort share the first mobile row. Hidden hero/filter work is deferred. This release includes follow-redirects 1.16.1.
 
 Search suggestions now show real poster thumbnails with a logo fallback. This release adds bounded smaller JPEG variants, catalogue revalidation caches, compressed content-hashed application styles, and loads the existing 3D hero engine only on Home. Search text is usable before artwork finishes. Original media-server and Internet latency can still affect playback.
 
